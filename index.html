@@ -144,14 +144,14 @@
             color: #555;
         }
 
-        /* Menu de hamburguesa */
+        /* Estilo para el botón de menú de hamburguesa */
         .menu-toggle {
             display: none;
-            position: absolute;
+            position: fixed; /* Cambiado de absolute a fixed */
             top: 20px;
             left: 20px;
             cursor: pointer;
-            z-index: 2;
+            z-index: 1000; /* Asegura que el botón esté encima del menú */
         }
 
         .menu-toggle span {
@@ -175,17 +175,19 @@
             transform: rotate(45deg) translate(-5px, -6px);
         }
 
+        /* Cambia el estado del menú cuando está activo */
         .menu-toggle.active ~ .sidebar {
             transform: translateX(0);
         }
 
         .menu-toggle.active ~ .content {
-            margin-left: 0;
+            margin-left: 250px; /* Ajusta según el ancho de la barra lateral */
         }
 
         @media (max-width: 768px) {
             .sidebar {
                 transform: translateX(-250px);
+                transition: transform 0.3s ease; /* Asegura que la transición sea suave */
             }
 
             .menu-toggle {
@@ -196,6 +198,7 @@
                 margin-left: 0;
             }
         }
+
 
         /* Estilos para las tarjetas de proyectos */
         .project-cards {
@@ -211,7 +214,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             width: 100%;
-            max-width: 300px;
+            max-width: 330px;
         }
 
         .project-card img {
