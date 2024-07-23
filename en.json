@@ -12,5 +12,17 @@
     "menu-contact": "Contact",
     "language-dropdown": "Language",
     "spanish": "Spanish",
-    "english": "English"
+    "english": "English",
+    "project-1-title": "Project 1",
+    "project-1-description": "Description about the project 1.",
+    "project-2-title": "Project 2",
+    "project-2-description": "Description about the project 2.",
+    "project-3-title": "Project 3",
+    "project-3-description": "Description about the project 3.",
+    "project-4-title": "Project 4",
+    "project-4-description": "Description about the project 4.",
+    "project-5-title": "Project 5",
+    "project-5-description": "Description about the project 5.",
+    "project-6-title": "Project 6",
+    "project-6-description": "Description about the project 6."
 }
