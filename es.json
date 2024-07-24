@@ -28,19 +28,30 @@
     },
     "projects-list": [
         {
-            "title": "Proyecto 1",
-            "description": "Descripción breve del proyecto 1.",
-            "image": "img/daylight.jpg"
+            "title": "Examen de asignación de nivel para curso de inglés y sistema de examen de suficiencia",
+            "description": "Plataforma de examen de asignación de nivel para curso de inglés de la UTEsc y sistema de examen de suficiencia para alumnos de la UTEsc.",
+            "image": "img/portada-project1.jpg",
+            "project-details": {
+                "title-details": "Examen de asignación de nivel para curso de inglés y sistema de examen de suficiencia.",
+                "description-details": "Este sistema fue desarrollado para la Universidad Tecnológica de Escuinapa e integra dos exámenes en una única plataforma.<br>El primer examen es el de asignación de nivel para el curso de inglés de la UTEsc. Los interesados en inscribirse en el curso realizan una evaluación en línea y, según su puntaje, se les asigna un nivel adecuado entre los siete niveles disponibles.<br>El segundo examen está diseñado para evaluar los conocimientos de inglés de los alumnos de la UTEsc antes de sus prácticas profesionales.",
+                "images": [
+                    "img/project1.jpg",
+                    "img/project1.jpg",
+                    "img/project1.jpg"
+                ]
+            }
         },
         {
             "title": "Proyecto 2",
             "description": "Descripción breve del proyecto 2.",
             "image": "img/daylight.jpg"
+            
         },
         {
             "title": "Proyecto 3",
             "description": "Descripción breve del proyecto 3.",
             "image": "img/daylight.jpg"
+            
         },
         {
             "title": "Proyecto 4",

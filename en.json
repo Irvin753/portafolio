@@ -28,10 +28,19 @@
     },
     "projects-list": [
         {
-            "title": "Project 1",
-            "description": "Description about Project 1.",
-            "image": "img/daylight.jpg"
-        },
+            "title": "English Course Placement Test and Proficiency Exam System",
+            "description": "Placement test platform for the UTEsc English course and proficiency exam system for UTEsc students.",
+            "image": "img/portada-project1.jpg",
+            "project-details": {
+            "title-details": "English Course Placement Test and Proficiency Exam System",
+            "description-details": "This system was developed for the Universidad Tecnológica de Escuinapa and integrates two exams into a single platform.<br>The first exam is for placement in the UTEsc English course. Prospective students take an online test, and based on their score, they are assigned a level from the seven available levels.<br><br>The second exam is designed to assess the English proficiency of UTEsc students before their professional internships.",
+            "images": [
+                "img/project1.jpg",
+                "img/project1.jpg",
+                "img/project1.jpg"
+            ]
+        }
+        },        
         {
             "title": "Project 2",
             "description": "Description about Project 2.",
