@@ -82,16 +82,20 @@
 
         .sidebar .dropdown {
             position: relative;
+            display: flex;
+            align-items: center; /* Alinea verticalmente el texto y el ícono */
         }
 
         .sidebar .dropdown .dropbtn {
             color: #ecf0f1;
             text-decoration: none;
             font-size: 16px;
-            display: block;
+            display: flex;
+            align-items: center; /* Alinea verticalmente el texto y el ícono */
             padding: 15px;
             border-radius: 4px;
             transition: background-color 0.3s ease;
+            margin-right: 8px; /* Espacio entre el texto y el ícono */
         }
 
         .sidebar .dropdown .dropbtn:hover {
@@ -124,6 +128,10 @@
 
         .sidebar .dropdown:hover .dropdown-content {
             display: block;
+        }
+        .sidebar .dropdown img {
+            display: inline-block; /* Asegura que se muestre en línea */
+            vertical-align: middle; /* Alinea verticalmente */
         }
 
         .content {
@@ -286,81 +294,34 @@
             <img src="img/daylight.jpg" alt="Foto de perfil">
             <p>Irvin Toledo García</p>
         </div>
-        <h2 id="menu-title">Menú</h2>
+        <h2 id="menu-title"></h2>
         <ul id="menu-list">
-            <li><a href="index.html" id="menu-home">Inicio</a></li>
-            <li><a href="#projects-title" id="menu-projects">Proyectos</a></li>
-            <li><a href="#contacto" id="menu-contact">Contacto</a></li>
+            <li><a href="index.html" id="menu-home"></a></li>
+            <li><a href="#projects-title" id="menu-projects"></a></li>
+            <li><a href="#contacto" id="menu-contact"></a></li>
             <li class="dropdown" id="language-dropdown">
-                <a href="#" class="dropbtn">Idioma</a>
-                <div class="dropdown-content">
-                    <a href="#" onclick="setLanguage('es')">Español</a>
-                    <a href="#" onclick="setLanguage('en')">Inglés</a>
-                </div>
+                <a href="#" class="dropbtn"></a>
+                <div class="dropdown-content"></div>
             </li>
         </ul>
     </div>
 
     <div class="content">
-        <h2 id="home">Inicio</h2>
-        <p id="welcome-message">Bienvenido a mi portafolio.</p>
+        <h2 id="home"></h2>
+        <p id="welcome-message"></p>
         
-        <h2 id="projects-title">Proyectos</h2>
-        <p id="projects">Aquí están algunos de mis proyectos.</p>
-        
-        <div class="project-cards">
-            <div class="project-card">
-                <img src="img/daylight.jpg" alt="Project 1">
-                <div class="project-info">
-                    <h3 id="project-1-title">Proyecto 1</h3>
-                    <p id="project-1-description">Descripción breve del proyecto 1.</p>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="img/daylight.jpg" alt="Project 2">
-                <div class="project-info">
-                    <h3 id="project-2-title">Proyecto 2</h3>
-                    <p id="project-2-description">Descripción breve del proyecto 2.</p>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="img/daylight.jpg" alt="Project 3">
-                <div class="project-info">
-                    <h3 id="project-3-title">Proyecto 3</h3>
-                    <p id="project-3-description">Descripción breve del proyecto 3.</p>
-                </div>
-            </div>
-        </div>
+        <h2 id="projects-title"></h2>
+        <p id="projects"></p>
         
         <div class="project-cards">
-            <div class="project-card">
-                <img src="img/daylight.jpg" alt="Project 4">
-                <div class="project-info">
-                    <h3 id="project-4-title">Proyecto 4</h3>
-                    <p id="project-4-description">Descripción breve del proyecto 4.</p>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="img/daylight.jpg" alt="Project 5">
-                <div class="project-info">
-                    <h3 id="project-5-title">Proyecto 5</h3>
-                    <p id="project-5-description">Descripción breve del proyecto 5.</p>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="img/daylight.jpg" alt="Project 6">
-                <div class="project-info">
-                    <h3 id="project-6-title">Proyecto 6</h3>
-                    <p id="project-6-description">Descripción breve del proyecto 6.</p>
-                </div>
-            </div>
+            <!-- Las tarjetas de proyectos se generarán dinámicamente -->
         </div>
         
         
         <div id="contacto">
-            <h2 id="contacto-heading">Contacto</h2>
-            <p id="contact-phone">Teléfono: 695 951 4831</p>
-            <p id="contact-email">Email: irvintoledogarcia03@gmail.com</p>
+            <h2 id="contacto-heading"></h2>
+            <p id="contact-phone"></p>
+            <p id="contact-email"></p>
         </div>
     </div>
 
@@ -375,6 +336,7 @@
             return response.json();
         })
         .then(translations => {
+            // Actualizar textos
             document.getElementById('home').innerText = translations.home;
             document.getElementById('projects-title').innerText = translations['projects-title'];
             document.getElementById('contacto-heading').innerText = translations['contacto-heading'];
@@ -386,19 +348,78 @@
             document.getElementById('menu-home').innerText = translations['menu-home'];
             document.getElementById('menu-projects').innerText = translations['menu-projects'];
             document.getElementById('menu-contact').innerText = translations['menu-contact'];
-            document.getElementById('language-dropdown').querySelector('.dropbtn').innerText = translations['language-dropdown'];
-            const dropdownLinks = document.getElementById('language-dropdown').querySelectorAll('.dropdown-content a');
-            dropdownLinks[0].innerText = translations.spanish;
-            dropdownLinks[1].innerText = translations.english;
 
-            // Actualizar las tarjetas de proyectos
-            for (let i = 1; i <= 6; i++) {
-                document.getElementById(`project-${i}-title`).innerText = translations[`project-${i}-title`];
-                document.getElementById(`project-${i}-description`).innerText = translations[`project-${i}-description`];
-            }
+            // Actualizar el dropdown de idiomas
+            const dropdownContent = document.querySelector('#language-dropdown .dropdown-content');
+            dropdownContent.innerHTML = ''; // Limpiar opciones existentes
+
+            // Actualizar el texto del botón del dropdown y la imagen del ícono de idioma
+            const dropbtn = document.getElementById('language-dropdown').querySelector('.dropbtn');
+            dropbtn.innerHTML = ''; // Limpiar contenido existente
+
+            const textNode = document.createTextNode(translations['language-dropdown'].text);
+
+            const flagImg = document.createElement('img');
+            flagImg.src = translations['language-dropdown'].flag; // Ruta de la imagen del ícono
+            flagImg.width = 25;
+            flagImg.alt = 'Icono de idioma';
+
+
+            dropbtn.appendChild(textNode);
+            dropbtn.appendChild(flagImg);
+
+            translations['language-dropdown'].options.forEach(option => {
+                const link = document.createElement('a');
+                link.href = '#';
+                link.onclick = () => setLanguage(option.lang);
+
+                const optionImg = document.createElement('img');
+                optionImg.src = option.flag;
+                optionImg.width = 25;
+                optionImg.alt = `Icono de idioma ${option.label}`;
+                
+                link.appendChild(document.createTextNode(option.label));
+                link.appendChild(optionImg);
+
+                dropdownContent.appendChild(link);
+            });
+
+
+            // Actualizar imágenes y textos de proyectos
+            const projectsContainer = document.querySelector('.project-cards');
+            projectsContainer.innerHTML = ''; // Limpiar proyectos existentes
+
+            translations['projects-list'].forEach((project, index) => {
+                const projectCard = document.createElement('div');
+                projectCard.classList.add('project-card');
+
+                const projectImage = document.createElement('img');
+                projectImage.src = project.image;
+                projectImage.alt = project.title;
+
+                const projectInfo = document.createElement('div');
+                projectInfo.classList.add('project-info');
+
+                const projectTitle = document.createElement('h3');
+                projectTitle.innerText = project.title;
+
+                const projectDescription = document.createElement('p');
+                projectDescription.innerText = project.description;
+
+                projectInfo.appendChild(projectTitle);
+                projectInfo.appendChild(projectDescription);
+
+                projectCard.appendChild(projectImage);
+                projectCard.appendChild(projectInfo);
+
+                projectsContainer.appendChild(projectCard);
+            });
         })
-        .catch(error => console.error('Error loading translation:', error));
+        .catch(error => console.error('Error loading translations:', error));
 }
+
+
+
 
 
         // Función para establecer el idioma en localStorage

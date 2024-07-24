@@ -10,19 +10,52 @@
     "menu-home": "Inicio",
     "menu-projects": "Proyectos",
     "menu-contact": "Contacto",
-    "language-dropdown": "Idioma",
-    "spanish": "Español",
-    "english": "Inglés",
-    "project-1-title": "Proyecto 1",
-    "project-1-description": "Descripción breve del proyecto 1.",
-    "project-2-title": "Proyecto 2",
-    "project-2-description": "Descripción breve del proyecto 2.",
-    "project-3-title": "Proyecto 3",
-    "project-3-description": "Descripción breve del proyecto 3.",
-    "project-4-title": "Proyecto 4",
-    "project-4-description": "Descripción breve del proyecto 4.",
-    "project-5-title": "Proyecto 5",
-    "project-5-description": "Descripción breve del proyecto 5.",
-    "project-6-title": "Proyecto 6",
-    "project-6-description": "Descripción breve del proyecto 6."
+    "language-dropdown": {
+        "text": "Idioma",
+        "flag": "img/earth.png",
+        "options": [
+            {
+                "lang": "es",
+                "label": "Español",
+                "flag": "img/esp.png"
+            },
+            {
+                "lang": "en",
+                "label": "Inglés",
+                "flag": "img/eua.png"
+            }
+        ]
+    },
+    "projects-list": [
+        {
+            "title": "Proyecto 1",
+            "description": "Descripción breve del proyecto 1.",
+            "image": "img/daylight.jpg"
+        },
+        {
+            "title": "Proyecto 2",
+            "description": "Descripción breve del proyecto 2.",
+            "image": "img/daylight.jpg"
+        },
+        {
+            "title": "Proyecto 3",
+            "description": "Descripción breve del proyecto 3.",
+            "image": "img/daylight.jpg"
+        },
+        {
+            "title": "Proyecto 4",
+            "description": "Descripción breve del proyecto 4.",
+            "image": "img/daylight.jpg"
+        },
+        {
+            "title": "Proyecto 5",
+            "description": "Descripción breve del proyecto 5.",
+            "image": "img/daylight.jpg"
+        },
+        {
+            "title": "Proyecto 6",
+            "description": "Descripción breve del proyecto 6.",
+            "image": "img/daylight.jpg"
+        }
+    ]
 }
