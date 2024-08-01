@@ -2,13 +2,17 @@
     "home": "Inicio",
     "projects-title": "Proyectos",
     "contacto-heading": "Contacto",
-    "welcome-message": "Bienvenido a mi portafolio.",
+    "download-cv": "Descargar <br>currículum vitae cv",
+    "welcome-message": "Hola, mi nombre es Irvin Toledo García, tengo 20 años (en 2024), me especializo en el área de software, soy alguien responsable, disciplinado y autodidacta, capaz de asumir el liderazgo cuando la situación lo requiere. Mi pasión por la tecnología y mi compromiso me impulsan a enfrentar desafíos y a buscar continuamente oportunidades para aprender y crecer en el campo del software.",
+    "skills-title": "Habilidades.",
+    "skills": "PHP (SLIM, FLIGHT y PDO). <br>MySQL. <br>Base de datos. <br>HTML, CSS y JavaScript. <br>Java. <br>Python. <br>React JSX. <br>Ant Design y Bootstrap.",
     "projects": "Aquí están algunos de mis proyectos.",
-    "contact-phone": "Teléfono: 695 951 4831",
+    "contact-phone": "Teléfono: +52 695 951 4831",
     "contact-email": "Email: irvintoledogarcia03@gmail.com",
     "menu-title": "Menú",
     "menu-home": "Inicio",
     "menu-projects": "Proyectos",
+    "menu-skills": "Habilidades",
     "menu-contact": "Contacto",
     "language-dropdown": {
         "text": "Idioma",
@@ -28,45 +32,160 @@
     },
     "projects-list": [
         {
-            "title": "Examen de asignación de nivel para curso de inglés y sistema de examen de suficiencia",
+            "title": "Examen de asignación de nivel para curso de inglés y sistema de examen de suficiencia. PHP (PDO).",
             "description": "Plataforma de examen de asignación de nivel para curso de inglés de la UTEsc y sistema de examen de suficiencia para alumnos de la UTEsc.",
-            "image": "img/portada-project1.jpg",
+            "image": "img/project-1/portada-project1.jpg",
             "project-details": {
-                "title-details": "Examen de asignación de nivel para curso de inglés y sistema de examen de suficiencia.",
+                "title-details": "Examen de asignación de nivel para curso de inglés y sistema de examen de suficiencia. PHP (PDO).",
                 "description-details": "Este sistema fue desarrollado para la Universidad Tecnológica de Escuinapa e integra dos exámenes en una única plataforma.<br>El primer examen es el de asignación de nivel para el curso de inglés de la UTEsc. Los interesados en inscribirse en el curso realizan una evaluación en línea y, según su puntaje, se les asigna un nivel adecuado entre los siete niveles disponibles.<br>El segundo examen está diseñado para evaluar los conocimientos de inglés de los alumnos de la UTEsc antes de sus prácticas profesionales.",
                 "images": [
-                    "img/project1.jpg",
-                    "img/project1.jpg",
-                    "img/project1.jpg"
+                    "img/project-1/project1.jpg",
+                    "img/project-1/project1.1.jpg",
+                    "img/project-1/project1.2.jpg",
+                    "img/project-1/project1.3.jpg",
+                    "img/project-1/project1.4.jpg",
+                    "img/project-1/project1.5.jpg",
+                    "img/project-1/project1.6.jpg",
+                    "img/project-1/project1.7.jpg",
+                    "img/project-1/project1.8.jpg",
+                    "img/project-1/project1.9.jpg",
+                    "img/project-1/project1.10.jpg",
+                    "img/project-1/project1.11.jpg",
+                    "img/project-1/project1.12.jpg",
+                    "img/project-1/project1.13.jpg",
+                    "img/project-1/project1.14.jpg",
+                    "img/project-1/project1.16.jpg",
+                    "img/project-1/project1.17.jpg",
+                    "img/project-1/project1.18.jpg",
+                    "img/project-1/project1.15.jpg",
+                    "img/project-1/project1.19.jpg",
+                    "img/project-1/project1.20.jpg"
+                    
                 ]
             }
         },
         {
-            "title": "Proyecto 2",
-            "description": "Descripción breve del proyecto 2.",
-            "image": "img/daylight.jpg"
-            
+            "title": "Ejercicios de JavaScript de la asignatura 'Estructura de datos'. JavaScript.",
+            "description": "Ejercicios realizados en JavaScript para la asignatura 'Estructura de datos'.",
+            "image": "img/project-6/portada-project6.jpg",
+            "project-details": {
+                "title-details": "Ejercicios de JavaScript de la asignatura 'Estructura de datos'. JavaScript.",
+                "description-details": "Se llevaron a cabo varios ejercicios en JavaScript para la asignatura 'Estructura de Datos', abarcando desde ejercicios básicos hasta ejercicios con arreglos.",
+                "images": [
+                    "img/project-6/project6.jpg",
+                    "img/project-6/project6.1.jpg",
+                    "img/project-6/project6.2.jpg",
+                    "img/project-6/project6.3.jpg",
+                    "img/project-6/project6.4.jpg",
+                    "img/project-6/project6.5.jpg",
+                    "img/project-6/project6.6.jpg",
+                    "img/project-6/project6.7.jpg",
+                    "img/project-6/project6.8.jpg",
+                    "img/project-6/project6.9.jpg",
+                    "img/project-6/project6.10.jpg",
+                    "img/project-6/project6.11.jpg",
+                    "img/project-6/project6.12.jpg",
+                    "img/project-6/project6.13.jpg",
+                    "img/project-6/project6.14.jpg",
+                    "img/project-6/project6.15.jpg"
+                    
+                ]
+            }
         },
         {
-            "title": "Proyecto 3",
-            "description": "Descripción breve del proyecto 3.",
-            "image": "img/daylight.jpg"
-            
+            "title": "Sistema para el departamento de tutorías de la Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP).",
+            "description": "Sistema para el departamento de tutorías de la Universidad, creado como parte de mis prácticas profesionales en la institución.",
+            "image": "img/project-3/portada-project3.jpg",
+            "project-details": {
+                "title-details": "Sistema para el departamento de tutorías de la Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP).",
+                "description-details": "El sistema para el departamento de tutorías de la Universidad Tecnológica de Escuinapa es un proyecto realizado para mis prácticas profesionales con el objetivo de gestionar de manera eficiente la información relacionada con las canalizaciones de los alumnos y mejorar la calidad de los servicios ofrecidos. Este departamento ofrece servicio médico, socioeconómico y psicopedagógico, por cada sesión de atención brindada se registra un resumen de lo tratado con el estudiante atendido.",
+                "images": [
+                    "img/project-3/project3.1.jpg",
+                    "img/project-3/project3.2.jpg",
+                    "img/project-3/project3.3.jpg",
+                    "img/project-3/project3.4.jpg",
+                    "img/project-3/project3.5.jpg",
+                    "img/project-3/project3.6.jpg",
+                    "img/project-3/project3.7.jpg",
+                    "img/project-3/project3.8.jpg",
+                    "img/project-3/project3.9.jpg",
+                    "img/project-3/project3.10.jpg",
+                    "img/project-3/project3.11.jpg",
+                    "img/project-3/project3.12.jpg",
+                    "img/project-3/project3.13.jpg",
+                    "img/project-3/project3.14.jpg",
+                    "img/project-3/project3.15.jpg",
+                    "img/project-3/project3.16.jpg",
+                    "img/project-3/project3.17.jpg",
+                    "img/project-3/project3.18.jpg",
+                    "img/project-3/project3.19.jpg",
+                    "img/project-3/project3.20.jpg"
+                    
+                ]
+            }
         },
         {
-            "title": "Proyecto 4",
-            "description": "Descripción breve del proyecto 4.",
-            "image": "img/daylight.jpg"
+            "title": "Página web para una cafetería ficticia. PHP (PDO).",
+            "description": "Página web para una cafetería ficticia que permite realizar pedidos y reservas en línea.",
+            "image": "img/project-4/portada-project4.jpg",
+            "project-details": {
+                "title-details": "Página web para una cafetería ficticia. PHP (PDO).",
+                "description-details": "Página web para una cafetería ficticia que permite a los usuarios realizar pedidos y reservas en línea. Además, el usuario administrador puede visualizar y gestionar los pedidos y reservas, así como añadir nuevos productos al catálogo.",
+                "images": [
+                    "img/project-4/project4.jpg",
+                    "img/project-4/project4.1.jpg",
+                    "img/project-4/project4.2.jpg",
+                    "img/project-4/project4.3.jpg",
+                    "img/project-4/project4.4.jpg",
+                    "img/project-4/project4.5.jpg",
+                    "img/project-4/project4.6.jpg",
+                    "img/project-4/project4.7.jpg",
+                    "img/project-4/project4.8.jpg",
+                    "img/project-4/project4.9.jpg",
+                    "img/project-4/project4.10.jpg",
+                    "img/project-4/project4.11.jpg",
+                    "img/project-4/project4.12.jpg",
+                    "img/project-4/project4.13.jpg"
+                    
+                ]
+            }
         },
         {
-            "title": "Proyecto 5",
-            "description": "Descripción breve del proyecto 5.",
-            "image": "img/daylight.jpg"
-        },
-        {
-            "title": "Proyecto 6",
-            "description": "Descripción breve del proyecto 6.",
-            "image": "img/daylight.jpg"
+            "title": "Sistema de cultura general para los alumnos de la Universidad Tecnológica de Escuinapa. (REACT JSX - FLIGHT PHP).",
+            "description": "Sistema de cultura general con diferentes categorías para comprender los conocimientos de los alumnos.",
+            "image": "img/project-5/portada-project5.jpg",
+            "project-details": {
+                "title-details": "Sistema de cultura general para los alumnos de la Universidad Tecnológica de Escuinapa. (REACT JSX - FLIGHT PHP).",
+                "description-details": "Este sistema fue desarrollado como un proyecto académico para evaluar el nivel de conocimientos de los estudiantes en la Universidad.",
+                "images": [
+                    "img/project-5/project5.jpg",
+                    "img/project-5/project5.1.jpg",
+                    "img/project-5/project5.2.jpg",
+                    "img/project-5/project5.2.1.jpg",
+                    "img/project-5/project5.3.jpg",
+                    "img/project-5/project5.4.jpg",
+                    "img/project-5/project5.5.jpg",
+                    "img/project-5/project5.6.jpg",
+                    "img/project-5/project5.7.jpg",
+                    "img/project-5/project5.8.jpg",
+                    "img/project-5/project5.9.jpg",
+                    "img/project-5/project5.10.jpg",
+                    "img/project-5/project5.11.jpg",
+                    "img/project-5/project5.12.jpg",
+                    "img/project-5/project5.13.jpg",
+                    "img/project-5/project5.14.jpg",
+                    "img/project-5/project5.15.jpg",
+                    "img/project-5/project5.16.jpg",
+                    "img/project-5/project5.17.jpg",
+                    "img/project-5/project5.18.jpg",
+                    "img/project-5/project5.19.jpg",
+                    "img/project-5/project5.20.jpg",
+                    "img/project-5/project5.21.jpg",
+                    "img/project-5/project5.22.jpg",
+                    "img/project-5/project5.23.jpg"
+                    
+                ]
+            }
         }
     ]
 }

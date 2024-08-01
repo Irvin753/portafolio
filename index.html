@@ -292,6 +292,27 @@
             width: 100%;
         }
     }
+    .downloadcv {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    font-family: Arial, sans-serif; /* Fuente */
+    cursor: pointer; /* Cursor de mano */
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+    }
+
+    .downloadcv:hover {
+        background-color: #0056b3; /* Color de fondo azul oscuro en hover */
+        transform: scale(1.05); /* Efecto de aumento en hover */
+    }
+
+    .downloadcv:active {
+        background-color: #004494; /* Color de fondo aún más oscuro al hacer clic */
+        transform: scale(1); /* Restablece el tamaño al hacer clic */
+    }
 
 
     </style>
@@ -305,13 +326,16 @@
     <br>
     <div class="sidebar">
         <div class="profile-photo">
-            <img src="img/daylight.jpg" alt="Foto de perfil">
+            <img src="img/me.jpg" alt="Foto de perfil">
             <p>Irvin Toledo García</p>
+            <!-- <br>
+            <button id="download-cv"></button> -->
         </div>
-        <h2 id="menu-title"></h2>
+        <!-- <h2 id="menu-title"></h2> -->
         <ul id="menu-list">
             <li><a href="index.html" id="menu-home"></a></li>
             <li><a href="index.html#projects-title" id="menu-projects"></a></li>
+            <li><a href="index.html#skills-title" id="menu-skills"></a></li>
             <li><a href="index.html#contacto" id="menu-contact"></a></li>
             <li class="dropdown" id="language-dropdown">
                 <a href="#" class="dropbtn"></a>
@@ -322,8 +346,14 @@
 
     <div class="content">
         <h2 id="home"></h2>
-        <p id="welcome-message"></p>
-        
+        <div>
+            <p id="welcome-message"></p><br>
+            <button class="downloadcv" id="download-cv" onclick="downloadCV()"></button>
+        </div>
+
+        <h2 id="skills-title"></h2>
+        <p id="skills"></p>
+
         <h2 id="projects-title"></h2>
         <p id="projects"></p>
         
@@ -340,6 +370,17 @@
     </div>
 
     <script>
+        function downloadCV() {
+    // Cambia 'path/to/your/cv.pdf' por la ruta real a tu archivo CV
+    const cvUrl = 'CV/Currículum Vitae CV - Toledo García Irvin.pdf';
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'Currículum Vitae CV - Toledo García Irvin.pdf'; // El nombre del archivo descargado
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
         // Función para cargar las traducciones
         function loadTranslations(language) {
             fetch(`${language}.json`)
@@ -354,13 +395,17 @@
                     document.getElementById('home').innerText = translations.home;
                     document.getElementById('projects-title').innerText = translations['projects-title'];
                     document.getElementById('contacto-heading').innerText = translations['contacto-heading'];
+                    document.getElementById('download-cv').innerHTML = translations['download-cv'];
                     document.getElementById('welcome-message').innerText = translations['welcome-message'];
+                    document.getElementById('skills-title').innerText = translations['skills-title'];
+                    document.getElementById('skills').innerHTML = translations['skills'];
                     document.getElementById('projects').innerText = translations.projects;
                     document.getElementById('contact-phone').innerText = translations['contact-phone'];
                     document.getElementById('contact-email').innerText = translations['contact-email'];
-                    document.getElementById('menu-title').innerText = translations['menu-title'];
+                    // document.getElementById('menu-title').innerText = translations['menu-title'];
                     document.getElementById('menu-home').innerText = translations['menu-home'];
                     document.getElementById('menu-projects').innerText = translations['menu-projects'];
+                    document.getElementById('menu-skills').innerText = translations['menu-skills'];
                     document.getElementById('menu-contact').innerText = translations['menu-contact'];
     
                     // Actualizar el dropdown de idiomas

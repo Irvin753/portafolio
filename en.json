@@ -2,13 +2,17 @@
     "home": "Home",
     "projects-title": "Projects",
     "contacto-heading": "Contact",
-    "welcome-message": "Welcome to my portfolio.",
+    "download-cv": "Download <br>currículum vitae cv",
+    "welcome-message": "Hello, my name is Irvin Toledo García. I am 20 years old (in 2024). I specialize in software development and consider myself responsible, disciplined, and self-taught, with the ability to take on leadership when needed. My passion for technology and commitment drive me to tackle challenges and continuously seek opportunities to learn and grow in the field of software.",
+    "skills-title": "Skills.",
+    "skills": "PHP (SLIM, FLIGHT and PDO). <br>MySQL. <br>Databases. <br>HTML, CSS and JavaScript. <br>Java. <br>Python. <br>React JSX. <br>Ant Design and Bootstrap.",
     "projects": "Here are some of my projects.",
-    "contact-phone": "Phone: 695 951 4831",
+    "contact-phone": "Phone: +52 695 951 4831",
     "contact-email": "Email: irvintoledogarcia03@gmail.com",
     "menu-title": "Menu",
     "menu-home": "Home",
     "menu-projects": "Projects",
+    "menu-skills": "Skills",
     "menu-contact": "Contact",
     "language-dropdown": {
         "text": "Language",
@@ -28,43 +32,159 @@
     },
     "projects-list": [
         {
-            "title": "English Course Placement Test and Proficiency Exam System",
+            "title": "English Course Placement Test and Proficiency Exam System. PHP (PDO).",
             "description": "Placement test platform for the UTEsc English course and proficiency exam system for UTEsc students.",
-            "image": "img/portada-project1.jpg",
+            "image": "img/project-1/portada-project1.jpg",
             "project-details": {
-            "title-details": "English Course Placement Test and Proficiency Exam System",
+            "title-details": "English Course Placement Test and Proficiency Exam System. PHP (PDO).",
             "description-details": "This system was developed for the Universidad Tecnológica de Escuinapa and integrates two exams into a single platform.<br>The first exam is for placement in the UTEsc English course. Prospective students take an online test, and based on their score, they are assigned a level from the seven available levels.<br><br>The second exam is designed to assess the English proficiency of UTEsc students before their professional internships.",
             "images": [
-                "img/project1.jpg",
-                "img/project1.jpg",
-                "img/project1.jpg"
+                    "img/project-1/project1.jpg",
+                    "img/project-1/project1.1.jpg",
+                    "img/project-1/project1.2.jpg",
+                    "img/project-1/project1.3.jpg",
+                    "img/project-1/project1.4.jpg",
+                    "img/project-1/project1.5.jpg",
+                    "img/project-1/project1.6.jpg",
+                    "img/project-1/project1.7.jpg",
+                    "img/project-1/project1.8.jpg",
+                    "img/project-1/project1.9.jpg",
+                    "img/project-1/project1.10.jpg",
+                    "img/project-1/project1.11.jpg",
+                    "img/project-1/project1.12.jpg",
+                    "img/project-1/project1.13.jpg",
+                    "img/project-1/project1.14.jpg",
+                    "img/project-1/project1.16.jpg",
+                    "img/project-1/project1.17.jpg",
+                    "img/project-1/project1.18.jpg",
+                    "img/project-1/project1.15.jpg",
+                    "img/project-1/project1.19.jpg",
+                    "img/project-1/project1.20.jpg"
             ]
         }
         },        
         {
-            "title": "Project 2",
-            "description": "Description about Project 2.",
-            "image": "img/daylight.jpg"
+            "title": "JavaScript exercises from the subject 'DataStructure'. JavaScript.",
+            "description": "Exercises in JavaScript for the subject 'Data Structure'.",
+            "image": "img/project-6/portada-project6.jpg",
+            "project-details": {
+                "title-details": "JavaScript exercises from the subject 'DataStructure'. JavaScript.",
+                "description-details": "Several exercises were carried out in JavaScript for the subject 'Data Structure', ranging from basic exercises to exercises with arrangements.",
+                "images": [
+                    "img/project-6/project6.jpg",
+                    "img/project-6/project6.1.jpg",
+                    "img/project-6/project6.2.jpg",
+                    "img/project-6/project6.3.jpg",
+                    "img/project-6/project6.4.jpg",
+                    "img/project-6/project6.5.jpg",
+                    "img/project-6/project6.6.jpg",
+                    "img/project-6/project6.7.jpg",
+                    "img/project-6/project6.8.jpg",
+                    "img/project-6/project6.9.jpg",
+                    "img/project-6/project6.10.jpg",
+                    "img/project-6/project6.11.jpg",
+                    "img/project-6/project6.12.jpg",
+                    "img/project-6/project6.13.jpg",
+                    "img/project-6/project6.14.jpg",
+                    "img/project-6/project6.15.jpg"
+                    
+                ]
+            }
         },
         {
-            "title": "Project 3",
-            "description": "Description about Project 3.",
-            "image": "img/daylight.jpg"
+            "title": "System for the tutoring department of the Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP).",
+            "description": "System for the university's tutoring department, developed as part of my professional internship at the institution.",
+            "image": "img/project-3/portada-project3.jpg",
+            "project-details": {
+                "title-details": "System for the tutoring department of the Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP).",
+                "description-details": "The system for the tutoring department of the Universidad Tecnológica de Escuinapa is a project created during my professional internship with the aim of efficiently managing information related to student referrals and improving the quality of the services provided. This department offers medical, socioeconomic, and psycho-pedagogical services, and for each session attended, a summary of the interaction with the student is recorded.",
+                "images": [
+                    "img/project-3/project3.1.jpg",
+                    "img/project-3/project3.2.jpg",
+                    "img/project-3/project3.3.jpg",
+                    "img/project-3/project3.4.jpg",
+                    "img/project-3/project3.5.jpg",
+                    "img/project-3/project3.6.jpg",
+                    "img/project-3/project3.7.jpg",
+                    "img/project-3/project3.8.jpg",
+                    "img/project-3/project3.9.jpg",
+                    "img/project-3/project3.10.jpg",
+                    "img/project-3/project3.11.jpg",
+                    "img/project-3/project3.12.jpg",
+                    "img/project-3/project3.13.jpg",
+                    "img/project-3/project3.14.jpg",
+                    "img/project-3/project3.15.jpg",
+                    "img/project-3/project3.16.jpg",
+                    "img/project-3/project3.17.jpg",
+                    "img/project-3/project3.18.jpg",
+                    "img/project-3/project3.19.jpg",
+                    "img/project-3/project3.20.jpg"
+                    
+                ]
+            }
         },
         {
-            "title": "Project 4",
-            "description": "Description about Project 4.",
-            "image": "img/daylight.jpg"
+            "title": "Website for a fictional coffe shop. PHP (PDO).",
+            "description": "Website for a fictional coffe shop that allows users to place orders and make reservations online.",
+            "image": "img/project-4/portada-project4.jpg",
+            "project-details": {
+                "title-details": "Website for a fictional coffe shop. PHP (PDO).",
+                "description-details": "Website for a fictional coffe shop that allows users to place orders and make reservations online. Additionally, the admin user can view and manage orders and reservations, as well as add new products to the catalog.",
+                "images": [
+                    "img/project-4/project4.jpg",
+                    "img/project-4/project4.1.jpg",
+                    "img/project-4/project4.2.jpg",
+                    "img/project-4/project4.3.jpg",
+                    "img/project-4/project4.4.jpg",
+                    "img/project-4/project4.5.jpg",
+                    "img/project-4/project4.6.jpg",
+                    "img/project-4/project4.7.jpg",
+                    "img/project-4/project4.8.jpg",
+                    "img/project-4/project4.9.jpg",
+                    "img/project-4/project4.10.jpg",
+                    "img/project-4/project4.11.jpg",
+                    "img/project-4/project4.12.jpg",
+                    "img/project-4/project4.13.jpg"
+                    
+                ]
+            }
         },
         {
-            "title": "Project 5",
-            "description": "Description about Project 5.",
-            "image": "img/daylight.jpg"
-        },
-        {
-            "title": "Project 6",
-            "description": "Description about Project 6.",
-            "image": "img/daylight.jpg"
+            "title": "General knowledge system for students of the Universidad Tecnológica de Escuinapa. (REACT JSX - FLIGHT PHP).",
+            "description": "General knowledge system with various categories to assess students' understanding.",
+            "image": "img/project-5/portada-project5.jpg",
+            "project-details": {
+                "title-details": "General knowledge system for students of the Universidad Tecnológica de Escuinapa. (REACT JSX - FLIGHT PHP).",
+                "description-details": "This system was developed as an academic project to assess the level of knowledge of students at the university.",
+                "images": [
+                    "img/project-5/project5.jpg",
+                    "img/project-5/project5.1.jpg",
+                    "img/project-5/project5.2.jpg",
+                    "img/project-5/project5.2.1.jpg",
+                    "img/project-5/project5.3.jpg",
+                    "img/project-5/project5.4.jpg",
+                    "img/project-5/project5.5.jpg",
+                    "img/project-5/project5.6.jpg",
+                    "img/project-5/project5.7.jpg",
+                    "img/project-5/project5.8.jpg",
+                    "img/project-5/project5.9.jpg",
+                    "img/project-5/project5.10.jpg",
+                    "img/project-5/project5.11.jpg",
+                    "img/project-5/project5.12.jpg",
+                    "img/project-5/project5.13.jpg",
+                    "img/project-5/project5.14.jpg",
+                    "img/project-5/project5.15.jpg",
+                    "img/project-5/project5.16.jpg",
+                    "img/project-5/project5.17.jpg",
+                    "img/project-5/project5.18.jpg",
+                    "img/project-5/project5.19.jpg",
+                    "img/project-5/project5.20.jpg",
+                    "img/project-5/project5.21.jpg",
+                    "img/project-5/project5.22.jpg",
+                    "img/project-5/project5.23.jpg"
+                    
+                ]
+            }
         }
     ]
 }
