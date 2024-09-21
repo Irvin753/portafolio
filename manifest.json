@@ -11,18 +11,18 @@
       {  
         "src": "img/me2.png",  
         "type": "image/png",  
-        "sizes": "144x144" 
+        "sizes": "48x48" 
       },
       {
         "src": "img/me3.png",  
         "type": "image/png",  
-        "sizes": "48x48"  
+        "sizes": "96x96"  
       }
       ,
       {
         "src": "img/me4.png",  
         "type": "image/png",  
-        "sizes": "96x96"  
+        "sizes": "144x144"  
       }
     ] 
   }
