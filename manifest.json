@@ -9,18 +9,18 @@
     "display": "standalone",  
     "icons":[
       {  
-        "src": "me2.png",  
+        "src": "img/me2.png",  
         "type": "image/png",  
         "sizes": "144x144" 
       },
       {
-        "src": "me3.png",  
+        "src": "img/me3.png",  
         "type": "image/png",  
         "sizes": "48x48"  
       }
       ,
       {
-        "src": "me4.png",  
+        "src": "img/me4.png",  
         "type": "image/png",  
         "sizes": "96x96"  
       }
