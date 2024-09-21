@@ -2,12 +2,17 @@
   "start_url": "/",
     "short_name": "CV-Irvin Toledo García",  
     "name": "CV Irvin Toledo García",  
-    "description": "TCV Irvin Toledo García",  
+    "description": "CV Irvin Toledo García",  
     "background_color": "#f0f2f5",  
     "theme_color": "#2c3e50",  
     "orientation": "portrait",  
     "display": "standalone",  
     "icons":[
+      {
+        "src": "img/me4.png",  
+        "type": "image/png",  
+        "sizes": "144x144"  
+      },
       {  
         "src": "img/me2.png",  
         "type": "image/png",  
@@ -18,11 +23,6 @@
         "type": "image/png",  
         "sizes": "96x96"  
       }
-      ,
-      {
-        "src": "img/me4.png",  
-        "type": "image/png",  
-        "sizes": "144x144"  
-      }
+      
     ] 
   }
