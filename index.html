@@ -313,6 +313,32 @@
         background-color: #004494; /* Color de fondo aún más oscuro al hacer clic */
         transform: scale(1); /* Restablece el tamaño al hacer clic */
     }
+    #skills, #experience-description, #courses, #education {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #000000;
+        text-align: justify;
+        padding: 15px 20px;
+        background-color: #fdfdfd; /* Fondo blanco */
+        border-left: 5px solid #3498db; /* Línea de color azul a la izquierda */
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Sombra ligera */
+        max-width: 300px;
+    }
+    #welcome-message {
+    font-size: 18px;
+    color: #000000; /* Azul oscuro suave */
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #fdfdfd; /* Fondo gris claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    line-height: 1.6;
+    max-width: 800px;
+    border-left: 5px solid #2980b9; /* Línea azul oscuro a la izquierda */
+    }
+
 
 
     </style>
@@ -334,7 +360,18 @@
         <!-- <h2 id="menu-title"></h2> -->
         <ul id="menu-list">
             <li><a href="index.html" id="menu-home"></a></li>
-            <li><a href="index.html#projects-title" id="menu-projects"></a></li>
+            <!-- <li><a href="index.html#projects-title" id="menu-projects"></a></li> -->
+            
+            <li class="dropdown" id="portfolio-dropdown">
+                <a href="#" class="dropbtn" id="menu-portfolio"></a> <!-- Identificador para el texto del dropdown -->
+                <div class="dropdown-content">
+                    <a href="index.html#projects-title" id="menu-projects"></a>
+                    <a href="index.html#experience-title" id="menu-experience"></a>
+                    <a href="index.html#courses-title" id="menu-courses"></a>
+                    <a href="index.html#education-title" id="menu-education"></a>
+                </div>
+            </li>
+
             <li><a href="index.html#skills-title" id="menu-skills"></a></li>
             <li><a href="index.html#contacto" id="menu-contact"></a></li>
             <li class="dropdown" id="language-dropdown">
@@ -360,7 +397,18 @@
         <div class="project-cards">
             <!-- Las tarjetas de proyectos se generarán dinámicamente -->
         </div>
+
+        <br>
+        <h2 id="experience-title"></h2>
+        <p id="experience-description"></p>
         
+        <br>
+        <h2 id="courses-title"></h2>
+        <p id="courses"></p>
+        
+        <br>
+        <h2 id="education-title"></h2>
+        <p id="education"></p>
         
         <div id="contacto">
             <h2 id="contacto-heading"></h2>
@@ -394,6 +442,20 @@
                     // Actualizar textos
                     document.getElementById('home').innerText = translations.home;
                     document.getElementById('projects-title').innerText = translations['projects-title'];
+                    
+                    document.getElementById('menu-portfolio').innerText = translations['menu-portfolio'];
+                    document.getElementById('menu-experience').innerText = translations['menu-experience'];
+                    document.getElementById('experience-title').innerText = translations['experience-title'];
+                    document.getElementById('experience-description').innerHTML = translations['experience-description'];
+                    
+                    document.getElementById('menu-courses').innerText = translations['menu-courses'];
+                    document.getElementById('courses-title').innerText = translations['courses-title'];
+                    document.getElementById('courses').innerHTML = translations['courses'];
+                    
+                    document.getElementById('menu-education').innerText = translations['menu-education'];
+                    document.getElementById('education-title').innerText = translations['education-title'];
+                    document.getElementById('education').innerHTML = translations['education'];
+
                     document.getElementById('contacto-heading').innerText = translations['contacto-heading'];
                     document.getElementById('download-cv').innerHTML = translations['download-cv'];
                     document.getElementById('welcome-message').innerText = translations['welcome-message'];

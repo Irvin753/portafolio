@@ -264,7 +264,18 @@
             border-radius: 4px;
             margin: 10px 0;
         }
-    
+        #skills, #experience-description, #courses, #education {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #000000;
+        text-align: justify;
+        padding: 15px 20px;
+        background-color: #fdfdfd; /* Fondo blanco */
+        border-left: 5px solid #3498db; /* Línea de color azul a la izquierda */
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Sombra ligera */
+        max-width: 300px;
+        }
 
     </style>
 </head>
@@ -283,7 +294,16 @@
         <!-- <h2 id="menu-title"></h2> -->
         <ul id="menu-list">
             <li><a href="index.html" id="menu-home"></a></li>
-            <li><a href="index.html#projects-title" id="menu-projects"></a></li>
+            <li class="dropdown" id="portfolio-dropdown">
+                <a href="#" class="dropbtn" id="menu-portfolio"></a> <!-- Identificador para el texto del dropdown -->
+                <div class="dropdown-content">
+                    <a href="index.html#projects-title" id="menu-projects"></a>
+                    <a href="index.html#experience-title" id="menu-experience"></a>
+                    <a href="index.html#courses-title" id="menu-courses"></a>
+                    <a href="index.html#education-title" id="menu-education"></a>
+                </div>
+            </li>
+            <li><a href="index.html#skills-title" id="menu-skills"></a></li>
             <li><a href="index.html#contacto" id="menu-contact"></a></li>
             <li class="dropdown" id="language-dropdown">
                 <a href="#" class="dropbtn"></a>
@@ -314,7 +334,14 @@ function loadTranslations(language) {
             // document.getElementById('menu-title').innerText = translations['menu-title'];
             document.getElementById('menu-home').innerText = translations['menu-home'];
             document.getElementById('menu-projects').innerText = translations['menu-projects'];
-            document.getElementById('menu-contact').innerText = translations['menu-contact'];
+            document.getElementById('menu-contact').innerText = translations['menu-contact'];   
+            document.getElementById('menu-portfolio').innerText = translations['menu-portfolio'];
+            document.getElementById('menu-projects').innerText = translations['menu-projects'];
+            document.getElementById('menu-experience').innerText = translations['menu-experience'];
+            document.getElementById('menu-courses').innerText = translations['menu-courses'];
+            document.getElementById('menu-education').innerText = translations['menu-education'];
+            document.getElementById('menu-skills').innerText = translations['menu-skills'];
+            
             // document.getElementById('download-cv').innerHTML = translations['download-cv'];
     
             // Actualizar el dropdown de idiomas
