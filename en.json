@@ -102,11 +102,11 @@
             }
         },
         {
-            "title": "System for the tutoring department of the Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP).",
+            "title": "System for the tutoring department of the Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP - professional internship 2023).",
             "description": "System for the university's tutoring department, developed as part of my professional internship at the institution.",
             "image": "img/project-3/portada-project3.jpg",
             "project-details": {
-                "title-details": "System for the tutoring department of the Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP).",
+                "title-details": "System for the tutoring department of the Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP - professional internship 2023).",
                 "description-details": "The system for the tutoring department of the Universidad Tecnológica de Escuinapa is a project created during my professional internship with the aim of efficiently managing information related to student referrals and improving the quality of the services provided. This department offers medical, socioeconomic, and psycho-pedagogical services, and for each session attended, a summary of the interaction with the student is recorded.",
                 "images": [
                     "img/project-3/project3.1.jpg",
@@ -192,6 +192,28 @@
                     "img/project-5/project5.21.jpg",
                     "img/project-5/project5.22.jpg",
                     "img/project-5/project5.23.jpg"
+                    
+                ]
+            }
+        },
+        {
+            "title": "Survey management system for multiple political campaigns.  (LARAVEL - professional internship 2025).",
+            "description": "Survey management system for multiple political campaigns, designed to segment and analyze the data sets collected per project or campaign.",
+            "image": "img/project-2/portada-project2.jpg",
+            "project-details": {
+                "title-details": "Survey management system for multiple political campaigns. (LARAVEL - professional internship 2025).",
+                "description-details": "Comprehensive platform for managing surveys across multiple political campaigns. <br>Most of the surveys conducted on the platform are closed-ended, meaning they consist of predefined questions. <br>The core functionality of the system lies in its ability to segment and analyze the datasets collected for each project or campaign.",
+                "images": [
+                    "img/project-2/project2.jpg",
+                    "img/project-2/project2.1.jpg",
+                    "img/project-2/project2.2.jpg",
+                    "img/project-2/project2.3.jpg",
+                    "img/project-2/project2.4.jpg",
+                    "img/project-2/project2.5.jpg",
+                    "img/project-2/project2.6.jpg",
+                    "img/project-2/project2.7.jpg",
+                    "img/project-2/project2.8.jpg"
+                    
                     
                 ]
             }

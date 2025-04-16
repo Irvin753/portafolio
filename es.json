@@ -103,11 +103,11 @@
             }
         },
         {
-            "title": "Sistema para el departamento de tutorías de la Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP).",
+            "title": "Sistema para el departamento de tutorías de la Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP - prácticas profesionales 2023).",
             "description": "Sistema para el departamento de tutorías de la Universidad, creado como parte de mis prácticas profesionales en la institución.",
             "image": "img/project-3/portada-project3.jpg",
             "project-details": {
-                "title-details": "Sistema para el departamento de tutorías de la Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP).",
+                "title-details": "Sistema para el departamento de tutorías de la Universidad Tecnológica de Escuinapa. (REACT JSX - SLIM PHP - prácticas profesionales 2023).",
                 "description-details": "El sistema para el departamento de tutorías de la Universidad Tecnológica de Escuinapa es un proyecto realizado para mis prácticas profesionales con el objetivo de gestionar de manera eficiente la información relacionada con las canalizaciones de los alumnos y mejorar la calidad de los servicios ofrecidos. Este departamento ofrece servicio médico, socioeconómico y psicopedagógico, por cada sesión de atención brindada se registra un resumen de lo tratado con el estudiante atendido.",
                 "images": [
                     "img/project-3/project3.1.jpg",
@@ -196,6 +196,29 @@
                     
                 ]
             }
+        },
+    
+    {
+        "title": "Sistema para la administración de encuestas en múltiples campañas políticas. (LARAVEL - prácticas profesionales 2025).",
+        "description": "Sistema para la administración de encuestas en múltiples campañas políticas, para segmentar y analizar  los conjuntos de datos recopilados en cada proyecto o campaña.",
+        "image": "img/project-2/portada-project2.jpg",
+        "project-details": {
+            "title-details": "Sistema para la administración de encuestas en múltiples campañas políticas. (LARAVEL - prácticas profesionales 2025).",
+            "description-details": "Plataforma integral para la administración de encuestas en múltiples campañas políticas. <br>La mayoría de las encuestas que se realizan en la plataforma son de tipo 'encuesta cerrada', es decir, con preguntas predefinidas. La funcionalidad clave del sistema radica en su capacidad para segmentar y analizar los conjuntos de datos recopilados en cada proyecto o campaña.",
+            "images": [
+                "img/project-2/project2.jpg",
+                "img/project-2/project2.1.jpg",
+                "img/project-2/project2.2.jpg",
+                "img/project-2/project2.3.jpg",
+                "img/project-2/project2.4.jpg",
+                "img/project-2/project2.5.jpg",
+                "img/project-2/project2.6.jpg",
+                "img/project-2/project2.7.jpg",
+                "img/project-2/project2.8.jpg"
+                
+                
+            ]
         }
-    ]
+    }
+]
 }
